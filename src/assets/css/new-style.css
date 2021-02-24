@@ -1,0 +1,304 @@
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+}
+#input-5{
+	margin-left: 15px !important;
+}
+.img-class{
+	height: auto;
+	width: 100%;
+}
+.menubar{
+	background-color: transparent !important;
+}
+.v-text-field{
+	padding-top: 0px !important;
+	margin-top: 0px !important;
+}
+.v-input{
+	max-width: 65% !important;
+}
+.v-text-field__slot{
+	border: 1px solid #F0596A;
+    border-radius: 15px;
+}
+.v-input__slot{
+    display: flex !important;
+    margin-bottom: 8px !important;
+}
+.v-navigation-drawer__content{
+	background-color: #343179 !important;
+}
+.v-navigation-drawer {
+    border-radius: 0 10px 10px 0 !important;
+}
+.v-navigation-drawer.v-navigation-drawer--mini-variant {
+    width: 100px !important;
+}
+.sidebar-box {
+    position: absolute;
+    z-index: 99;
+    left: 0;
+    top: 80px;
+    bottom: 0;
+}
+.theme--light.v-text-field>.v-input__control>.v-input__slot:before {
+    content: none !important;
+}
+.v-input.theme--light.v-text-field.v-text-field--is-booted.v-text-field--placeholder{
+	margin: 0 auto;
+}
+.content{
+	margin-top: 40px;
+    margin-left: 24%;
+}
+.sub-side-bar{
+	background-color: #FEE6CD !important;
+}
+.v-input.theme--light.v-input--selection-controls.v-input--checkbox{
+	margin-left: 2% !important;
+}
+.mt-5.v-navigation-drawer.v-navigation-drawer--open.theme--light{
+    width: 100px !important;
+}
+.v-item-group.theme--light.v-expansion-panels.v-expansion-panels--focusable{
+	margin-top: 10px;
+}
+
+.v-list-item__icon{
+	margin-left: 12px;
+}
+.v-avatar.v-list-item__avatar{
+	height: 40px !important;
+    min-width: 69px !important;
+    width: 40px !important;
+}
+.icon-css{
+	margin-top: 30px;
+}
+.cursou-pointer{
+	cursor: pointer;
+}
+.dropdown-wrap {
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+}
+
+.dropdown-wrap label.v-label {
+    color: #343179;
+    font-weight: bold;
+}
+
+.dropdown-wrap .v-input {
+    width: auto;
+}
+
+.dropdown-wrap .v-input .v-text-field__details {
+    display: none;
+}
+
+.dropdown-wrap .v-input .v-input__slot {
+    margin: 0 !important;
+}
+.v-item-group.v-expansion-panels.v-expansion-panels--focusable.v-expansion-panel-header{
+	background-color: #FEE6CD !important;
+}
+.v-list-item__content{
+	text-align: left !important;
+}
+.text-class{
+	font-size: 15px !important;
+	text-align: left !important;
+	margin-left: 13px;
+	color: #343179;
+}
+.v-expansion-panel-header.v-expansion-panel-header--active{
+	background-color: #FEE6CD !important;
+}
+.theme--light.v-expansion-panels .v-expansion-panel{
+	background-color: #FEE6CD !important;
+}
+.list-group-class{
+	background-color: #FEE6CD !important;
+}
+.v-list-item--active{
+	color: black !important;
+}
+/*.sidebar-box .v-list-item__icon:hover{ 	
+	background-color: red;
+}*/
+.v-list-group__items.v-list-item__content.v-list-item__title{
+	text-decoration: underline;
+}
+.custom-icon:hover{
+	background-color: transparent !important;
+}
+.box-detail {
+    justify-content: space-between;
+    display: flex;
+}
+.bd-left p {
+    margin-left: 0;
+    margin: 0;
+    color: #343179;
+    font-size: 12px;
+}
+.bd-right {
+    text-align: right;
+}
+.bd-left {
+    text-align: left;
+}
+.bd-right p {
+    margin: 0;
+}
+.bd-right span {
+    font-size: 15px !important;
+    text-align: left !important;
+    margin-left: 13px;
+    color: #343179;
+    opacity: 0.5;
+}
+.box-detail {
+    padding: 0 25px;
+}
+.custom-icon.v-list-item.v-list-item--link.theme--light{
+	background-color: transparent !important;
+}
+.v-application .my-12{
+	margin-top:0px !important;
+}
+.dropdown-wrap{
+	margin-left: 18%;
+}
+.v-list-item__icon:hover::after{
+	content: "";
+    position: absolute;
+    left: 34px;
+    top: 50px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    background: #F0596A;
+}
+.v-navigation-drawer__content{
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.custom-icon .v-list-item__icon:after,
+.sub-side-bar .v-list-item__icon:after{display: none;}
+.v-list--nav .v-list-item .v-list-item__icon{
+    height: auto;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+.app-css{
+	display: none;
+}
+.v-overlay__scrim{
+	background-color: transparent !important; 
+   	border-color: transparent !important;
+}
+.overlay-css{
+	display: none;
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	top: 0px;
+	background: rgb(0,0,0,0.5);
+}
+.danger-btn{
+	border-radius: 30px;
+}
+
+
+/*********** media query****************/
+
+@media (min-width: 320px) and (max-width: 425px) {
+	.app-css {
+    display: block;
+    position: fixed;
+    top: 0 !important;
+    left: 0;
+    width: 80px !important
+}
+	.desktop-css{
+		display: none;
+	}
+	.v-list--nav .v-list-item .v-list-item__icon{
+	    margin-left: -5px;
+	    margin-bottom: 0px !important;
+	}
+	.plus-sign{
+		display: none !important;
+	}
+	.blube-css{
+		margin-left: 10px;
+	}
+	.v-input{
+		max-width: 100% !important;
+	}
+	.dropdown-wrap{
+		margin-left: 0%;
+	    display: block;
+	    margin-top: 0px;
+	}
+	.v-select__slot{
+		padding-bottom: 10px;
+	}
+	.overlay-css{
+		display: block;
+		z-index: 0;
+	}
+	.sidebar-box{
+		z-index: 9999;
+	}
+	.v-system-bar.mt-5.menubar.theme--light{
+		height: auto !important;
+	}
+	.img-class {
+    height: auto;
+    width: auto;
+}
+
+.row {margin: 0;}
+.grid_img_box{width: 100%;height: 100%;}
+.box-detail {
+    padding: 0;
+}
+.v-application .mt-5 {
+    margin-top: 0px!important;
+    padding-top: 2rem;
+}
+.icon-css {
+    margin-top: 0;
+}
+#input-5 {
+    margin-left: 0px !important;
+    padding: 15px;
+    height: auto !important;
+    max-height: inherit;
+    border-radius: 100px !important;
+}
+.v-system-bar .v-icon {
+    font-size: 2.5rem;
+    margin-right: 0;
+    margin-top: 20px;
+}
+.theme--dark.v-app-bar.v-toolbar.v-sheet {
+    background-color: #673ab7 !important;
+    width: 100% !important;
+}
+.v-list--nav .v-list-item {
+    padding: 12px 8px;
+}
+.v-list-item__icon:hover::after {left: 15px;}
+}
