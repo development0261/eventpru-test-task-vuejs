@@ -247,13 +247,13 @@
                     <v-checkbox v-model="selected" label="Premium" value="Premium">Premium</v-checkbox>
                     <v-checkbox v-model="selected" label="Static" value="Static">Static</v-checkbox>
                     <v-checkbox v-model="selected" label="Animated" value="Animated">Animated</v-checkbox>
+
                     <div class="col-md-3">
                         <v-select
                           :items="items"
                           label="Colors"
                         ></v-select>
                     </div>
-
                     <div class="row">
                         <div class="col-md-3">
                             <div

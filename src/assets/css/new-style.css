@@ -115,6 +115,13 @@
 	text-align: left !important;
 	margin-left: 13px;
 	color: #343179;
+	font-family: Circular;
+	font-style: normal;
+	font-weight: bold;
+}
+.v-select__selections{
+	font-family: Circular !important;
+    font-style: normal !important;
 }
 .v-expansion-panel-header.v-expansion-panel-header--active{
 	background-color: #FEE6CD !important;
